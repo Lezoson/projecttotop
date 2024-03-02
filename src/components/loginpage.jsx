@@ -28,7 +28,7 @@ function Login()
                     <h1>Hello Champ!</h1>
                     <p>Please Login into your account</p>
                 </div>
- {/* Inputs field starts here        */}
+ {/* form field starts here        */}
  <form action="#" method='post'>
                 <input type="text" className='email' id='email' placeholder='Email address' required/>
                 <input type={passwordType} className='password' id='password' placeholder='Password' onChange={handlePasswordChange} value={passwordInput} required/>
